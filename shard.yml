@@ -19,7 +19,6 @@ dependencies:
     github: jeromegn/slang
     branch: master
 
-
 targets:
   heroku_kemal_jennifer:
     main: src/heroku_kemal_jennifer.cr
