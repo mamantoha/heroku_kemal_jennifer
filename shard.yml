@@ -1,0 +1,29 @@
+name: heroku_kemal_jennifer
+version: 0.1.0
+
+authors:
+  - Anton Maminov <anton.maminov@gmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-session:
+    github: kemalcr/kemal-session
+  jennifer:
+    github: imdrasil/jennifer.cr
+  pg:
+    github: will/crystal-pg
+  sam:
+    github: imdrasil/sam.cr
+  slang:
+    github: jeromegn/slang
+    branch: master
+
+
+targets:
+  heroku_kemal_jennifer:
+    main: src/heroku_kemal_jennifer.cr
+
+crystal: 0.33.0-dev
+
+license: MIT
