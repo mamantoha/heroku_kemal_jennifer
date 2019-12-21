@@ -1,6 +1,6 @@
-require "./db/migrations/*"
 require "sam"
 require "./config/config"
+require "./db/migrations/*"
 
 load_dependencies "jennifer"
 

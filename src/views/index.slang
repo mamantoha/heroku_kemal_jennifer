@@ -1,1 +1,4 @@
-h1 Hello world!
+h1 Users
+ul
+  - users.each do |user|
+    li= user.name
