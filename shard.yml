@@ -18,12 +18,16 @@ dependencies:
   slang:
     github: jeromegn/slang
     branch: master
+  mosquito:
+    github: robacarp/mosquito
 
 targets:
   heroku_kemal_jennifer:
     main: src/heroku_kemal_jennifer.cr
   sam:
     main: sam.cr
+  worker:
+    main: src/worker.cr
 
 crystal: 0.33.0-dev
 

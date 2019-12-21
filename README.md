@@ -9,8 +9,9 @@ TODO: Write installation instructions here
 ## Heroku
 
 ```console
-heroku addons:create heroku-postgresql:hobby-dev
 heroku buildpacks:add https://github.com/mamantoha/heroku-buildpack-crystal.git
+heroku addons:create heroku-postgresql:hobby-dev
+heroku addons:create heroku-redis:hobby-dev
 ```
 
 ## Usage
