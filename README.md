@@ -1,6 +1,6 @@
 # heroku_kemal_jennifer
 
-TODO: Write a description here
+<https://heroku-kemal-jennifer.herokuapp.com/>
 
 ## Installation
 
@@ -9,6 +9,7 @@ TODO: Write installation instructions here
 ## Heroku
 
 ```console
+heroku addons:create heroku-postgresql:hobby-dev
 heroku buildpacks:add https://github.com/crystal-lang/heroku-buildpack-crystal.git
 ```
 

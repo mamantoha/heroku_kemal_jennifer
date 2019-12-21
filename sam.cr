@@ -1,9 +1,7 @@
+require "./db/migrations/*"
 require "sam"
+require "./config/config"
 
-# Here you can define your tasks
-# desc "with description to be used by help command"
-# task "test" do
-#   puts "ping"
-# end
+load_dependencies "jennifer"
 
 Sam.help
